@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Sweet Spot — Artisanal Patisserie. Cheesecakes, cakes, bento cakes and desserts made in Pune.">
+  <meta name="theme-color" content="#fff7f8">
+  <title>The Sweet Spot | Artisanal Patisserie</title>
+  <link rel="icon" href="images/logo-emblem.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The Sweet Spot home">
+      <img src="images/logo-emblem.png" alt="The Sweet Spot emblem">
+      <span>The Sweet Spot<small>ARTISANAL PATISSERIE</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#bakes">Our Bakes</a>
+      <a href="#offers">Offers</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="splash splash-tr" src="images/splash-top-right.png" alt="">
+      <img class="splash splash-bl" src="images/splash-bottom-left.png" alt="">
+      <img class="splash splash-br" src="images/splash-bottom-right.png" alt="">
+      <div class="hero-content">
+        <p class="eyebrow">HANDCRAFTED • FRESH • MADE TO ORDER</p>
+        <h1>Life is better<br><span>with something sweet.</span></h1>
+        <p class="hero-copy">Artisanal cheesecakes, cakes and desserts made in small batches for your sweetest moments.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#bakes">Explore Our Bakes</a>
+          <a class="btn btn-outline" id="heroOrder" target="_blank" rel="noopener">Order Now</a>
+        </div>
+      </div>
+      <div class="hero-logo-wrap">
+        <img src="images/logo-emblem.png" class="hero-logo" alt="The Sweet Spot logo emblem">
+        <div class="logo-caption">The Sweet Spot</div>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <p class="eyebrow">WELCOME TO THE SWEET SPOT</p>
+      <h2>Made for cravings.<br><span>Made for celebrations.</span></h2>
+      <p class="section-copy">From rich cheesecakes to adorable bento cakes and custom creations, every bake is made with care and a little extra sweetness.</p>
+    </section>
+
+    <section class="section bakes" id="bakes">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A LITTLE SOMETHING FOR EVERYONE</p>
+          <h2>Our Bakes</h2>
+        </div>
+        <a class="text-link" id="instagramGallery" target="_blank" rel="noopener">See more on Instagram ↗</a>
+      </div>
+      <div id="categoryGrid"></div>
+    </section>
+
+    <section class="offer-section section" id="offers">
+      <div class="offer-card">
+        <div class="offer-decoration">✦</div>
+        <div>
+          <p class="eyebrow" id="offerBadge">NEW OFFER</p>
+          <h2 id="offerTitle">Something Sweet is Coming!</h2>
+          <p id="offerText">Check back here for our latest offers.</p>
+          <a class="btn btn-dark" id="offerButton" target="_blank" rel="noopener">Order on WhatsApp</a>
+        </div>
+        <div class="offer-stamp">sweet<br>spot</div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-image">
+        <img src="images/logo-emblem.png" alt="The Sweet Spot logo emblem">
+        <strong>The Sweet Spot</strong>
+        <small>ARTISANAL PATISSERIE</small>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">OUR LITTLE BAKERY</p>
+        <h2>Small batches.<br><span>Big on flavour.</span></h2>
+        <p>The Sweet Spot is an artisanal patisserie built around one simple idea: desserts should feel special. We make our bakes with attention to flavour, texture and the little details that make celebrations memorable.</p>
+        <p>Have something specific in mind? Tell us what you are dreaming of and we'll make it sweet.</p>
+        <a class="text-link" id="aboutInstagram" target="_blank" rel="noopener">Follow @thesweetspot_tss ↗</a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="contact-inner">
+        <div>
+          <p class="eyebrow">LET'S MAKE SOMETHING SWEET</p>
+          <h2>Get in touch</h2>
+          <p class="section-copy">For orders, custom cakes, availability and current offers, reach out to us directly.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card" id="whatsappCard" target="_blank" rel="noopener"><span class="contact-icon">☏</span><span><small>WhatsApp / Orders</small><strong>Message us</strong></span></a>
+          <a class="contact-card" id="phoneCard"><span class="contact-icon">✆</span><span><small>Call us</small><strong id="phoneText"></strong></span></a>
+          <a class="contact-card" id="emailCard"><span class="contact-icon">✉</span><span><small>Email</small><strong id="emailText"></strong></span></a>
+          <a class="contact-card" id="zomatoCard" target="_blank" rel="noopener"><span class="contact-icon zomato">Z</span><span><small>Order online</small><strong>Find us on Zomato</strong></span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image">×</button>
+    <button class="lightbox-arrow prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+    <figure>
+      <img id="lightboxImage" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-arrow next" id="lightboxNext" aria-label="Next image">›</button>
+  </div>
+
+  <footer>
+    <img src="images/logo-emblem.png" alt="The Sweet Spot">
+    <strong>The Sweet Spot</strong>
+    <p>© <span id="year"></span> The Sweet Spot · Artisanal Patisserie</p>
+    <a id="footerInstagram" target="_blank" rel="noopener">@thesweetspot_tss</a>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

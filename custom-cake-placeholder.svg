@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<rect width="800" height="800" fill="#fff0f2"/>
+<circle cx="400" cy="330" r="190" fill="#f8c4ca"/>
+<circle cx="400" cy="330" r="145" fill="#fff"/>
+<path d="M275 330 C310 230,490 230,525 330 C490 430,310 430,275 330Z" fill="#f58b96"/>
+<path d="M315 315 C350 270,450 270,485 315" fill="none" stroke="#fff" stroke-width="15"/>
+<text x="400" y="570" text-anchor="middle" font-family="Georgia,serif" font-size="44" fill="#181617">CUSTOM CAKES</text>
+<text x="400" y="615" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#8c6268">ADD YOUR PHOTO IN /images</text>
+</svg>
