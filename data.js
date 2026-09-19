@@ -82,7 +82,7 @@ const SITE = {
         },
         {
           name: "Custom Cakes",
-          image: "images/cakes.svg",
+          image: "images/Cakes.svg",
           description: "Made-to-order cakes designed around your celebration."
         }
       ]
